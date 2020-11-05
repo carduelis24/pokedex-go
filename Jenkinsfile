@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-               sh "git pull"
+               sh "git pull origin/master"
               
             }
         }
